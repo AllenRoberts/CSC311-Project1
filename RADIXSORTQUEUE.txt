@@ -1,0 +1,9 @@
+ReadMe file for Radix Sort using a Queue in Python 3.7.
+
+== Description ==
+
+Radix sort is a sorting algorithm that sorts each integer in a list by separating them by ordering each number by their digits from 0-9. The program creates Queues to hold each number 0-9 to be used to separate the integers by each digit, it then checks the max number in the list to see the highest number of digits which determines how many times the loop runs. The Program then stores the first digit for each member in the list and then enqueues each integer into the appropriate queue for the stored digit. Then a temporary list is created as to not alter the original list and then each queue from 0-9 is dequeued into the temporary list and then is copied into the original list, so now the original list is sorted by the first digit in each integer. The program then repeats this process for each digit until the loop reaches the max number of digits. After that the list is sorted.
+
+== Instructions ==
+
+Download the zip and extract and open Radixsort.py and Queue.py in any python IDE.
